@@ -16,7 +16,7 @@ This is just a demo project to calculate the BMI (Body Mass Index) of the person
 ###  Setup
 Download the git repo
 ```
-git clone https://github.com/chandanparihar1986/BMICalculatorProj.git
+git clone  https://github.com/chandanparihar1986/code-20220606-chandanparihar.git
 ```
 
 
