@@ -1,9 +1,4 @@
 
-
-import unittest
-from BMICalculator import BMICalculator
-from logger import lLogger
-
 """
 Author: Chandan Parihar
 Date: 06-June-2022
@@ -11,6 +6,11 @@ Description: This class covers all test cases with respect to the BMI calculator
 Date                Name                 Description
 06-06-2022           CP                  Demo project
 """
+
+
+import unittest
+from BMICalculator import BMICalculator
+from logger import lLogger
 
 class BMICalculatorTest(unittest.TestCase):
 

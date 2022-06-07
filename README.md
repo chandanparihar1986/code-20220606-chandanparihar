@@ -27,14 +27,24 @@ cd <local_git_repo_path>
 python -m unittest tests/test_bmicalculator.py 
 ```
 
-###  Future considerations
+###  Out of scope
+Parameterization using confile file 
+   * All hardcoded values must be passed through the config file i.e. source, target, file path, etc.
+
+CICD - stage or prod deployment
+
+END to End pipeline   (Ingestion, Integration, Processing, Storage & Visualization)
+
+
+
+###  Considerations
 Assuming there would be high volume of data to be processed where the data comes in from the source system at 1 MM/sec rate, we can build the solution
 using two approaches
-    1. Extend this solution and build a PySpark application using the same classes as used here
-    2. Extend this solution and build a multithreaded application using the same classes as used here
-        i) please keep in mind there will be limitations of this solution. We will get the concurrency 
-            however the application is limited to the number of CPUs available per machine.
-        ii) I would lean towards using the first approach above when dealing with high volume of data with a requirement of low latency.
-            Basically, building the big data ETL pipelines and running them on big data plateforms.
+* Extend this solution and build a PySpark application using the same classes as used here
+* Extend this solution and build a multithreaded application using the same classes as used here
+     * please keep in mind there will be limitations of this solution. We will get the concurrency 
+          however the application is limited to the number of CPUs available per machine.
+     * I would lean towards using the first approach above when dealing with high volume of data with a requirement of low latency.
+          Basically, building the big data ETL pipelines and running them on big data plateforms.
 
 

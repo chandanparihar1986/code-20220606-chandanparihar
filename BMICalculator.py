@@ -1,16 +1,13 @@
-
-import random
-
-from logger import lLogger
-
 """
 Author: Chandan Parihar
 Date: 06-June-2022
-Description: Provides the functionality for the BMI calculator. 
+Description: Provides the functionality for the BMI calculator.
 Date                Name                 Description
 06-06-2022           CP                  Demo project
 """
 
+import random
+from logger import lLogger
 
 class BMICalculator:
     def __init__(self, gender, height, weight):

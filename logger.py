@@ -8,8 +8,4 @@ lLogger = logging.getLogger("logger")
 lLogger.addHandler(loghandler)
 lLogger.setLevel(logging.INFO)
 
-# class Logger:
-#     def __init__(self):
-#         self.logger = lLogger
-
 

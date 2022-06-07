@@ -17,7 +17,7 @@ from logger import lLogger
 
 
 if __name__ == '__main__':
-
+    print("Log file can be found at /tmp/bmicalculator.log")
     # Problem statment 1- Calculate the BMI using the given Table 1 and add three new columns
     persons =  [{"Gender": "Male", "HeightCm": 171, "WeightKg": 96 },
                 { "Gender": "Male", "HeightCm": 161, "WeightKg": 85 },
