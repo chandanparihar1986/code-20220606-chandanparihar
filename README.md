@@ -8,6 +8,11 @@ This is just a demo project to calculate the BMI (Body Mass Index) of the person
   * Health Risk
 * Problem statement 2- Count the total number of overweight covering the corner cases
 
+
+**Table 1**
+
+![img.png](img.png)
+
 ###  Setup
 Download the git repo
 ```
